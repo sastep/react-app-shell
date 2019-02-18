@@ -1,0 +1,26 @@
+[ignore]
+
+[include]
+
+[libs]
+./src/types.js
+
+[lints]
+
+[options]
+module.name_mapper='^actions' ->'<PROJECT_ROOT>/src/actions'
+module.name_mapper='^configs' ->'<PROJECT_ROOT>/src/configs'
+module.name_mapper='^helpers' ->'<PROJECT_ROOT>/src/helpers'
+module.name_mapper='^reducers' ->'<PROJECT_ROOT>/src/reducers'
+module.name_mapper='^components' ->'<PROJECT_ROOT>/src/components'
+module.name_mapper='^containers' ->'<PROJECT_ROOT>/src/containers'
+module.file_ext=.js
+module.file_ext=.json
+module.file_ext=.jsx
+module.file_ext=.css
+module.file_ext=.scss
+emoji=true
+
+esproposal.decorators=ignore
+
+[strict]
